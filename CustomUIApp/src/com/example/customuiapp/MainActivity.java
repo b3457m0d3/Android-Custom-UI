@@ -1,6 +1,7 @@
 package com.example.customuiapp;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -20,6 +21,8 @@ public class MainActivity extends Activity {
 				float number = Float.parseFloat(((EditText)findViewById(R.id.editText1)).getText().toString());
 				number *= 0.3048;
 				((EditText)findViewById(R.id.editText2)).setText(Float.toString(number));
+				MyView view = (MyView) findViewById(R.id.myView1);
+				view.setExampleColor(Color.GREEN);
 			}
 			
 		});

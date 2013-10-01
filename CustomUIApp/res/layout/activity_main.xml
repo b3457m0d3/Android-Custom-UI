@@ -57,4 +57,11 @@
         android:layout_marginTop="60dp"
         android:text="Feet" />
 
+    <com.example.customuiapp.MyView
+        android:id="@+id/myView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
 </RelativeLayout>
